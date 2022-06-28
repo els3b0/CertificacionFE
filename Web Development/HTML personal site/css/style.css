@@ -1,5 +1,5 @@
 
-    body {background-color: rgba(44, 67, 220, 0.829);
+    body {background-color: powderblue;
     }
     hr {
         border-style: dotted none none;
@@ -7,4 +7,12 @@
         width: 2%;
         border-width:5px;
         border-color: grey;
+    }
+
+    h1{
+        color: #66BFBF;
+    }
+
+    h3 {
+        color: #66BFBF;
     }
