@@ -1,0 +1,54 @@
+/****************** TAG selectors ***************/
+
+h1{
+
+    color: red;
+    font-size: 50px;
+    }
+
+p{
+
+    color: aqua;
+}
+
+body {background-color: powderblue;
+}
+/*
+img{
+    background-color: orange;
+}
+*/
+
+
+/************ class selectors ***************/
+
+.bacon {
+
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/******* ID selector *********/
+
+/* Los IDs son unicos solo puede haber uno con el mismo nombre en una pagina
+classes se pueden usar para agrupar elementos con el mismo estilo
+ ids y classes son mas especificos que los tags por eso tiene prioridad
+ puedes usar classes de manera concatenada mas de 1 para un item, pero ids no se puede usar mas de 1
+
+
+
+ :active  y :hover son pseudo clases que afectan a un elemento en otro estado por ejemplo cuando haces hovering
+ item:hover   img:hover
+*/
+
+#heading {
+
+    color: blue;
+}
