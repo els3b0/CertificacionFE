@@ -2,14 +2,19 @@
 
 body {
     margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif
 }
 
 h1{
     margin: 0px;
+    font-family: 'The Nautigal', cursive;
 }
 
-.top-container{ background-color: aqua;
-
+.top-container{ background-color: #e4f9f5;
+                position: relative;
+                padding-top: 100px;
+                
 }
 
 
@@ -28,3 +33,20 @@ h1{
                     width:  200px;
 }
 
+span{
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position:absolute;
+    top: 50px;
+    right: 300px;
+    
+}
+
+.bottom-cloud {
+
+    position:absolute;
+    bottom: 300px;
+    left: 300px;
+}
