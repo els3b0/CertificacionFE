@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    height: 500px;
+    outline: 2px solid red;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+
+.item{
+    width: 80px;
+    height: 80px;
+    background: darkcyan;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 80px;
+}
+
+.item2{ background: cornflowerblue;}
+
+.item3{ background: coral;}
+
+.item4{ background: blueviolet;}
